@@ -5,46 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/icon_play.svg" type="image/x-icon">
-    <title>ДЗ_3</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <title>ДЗ</title>
 </head>
 <body>
 
     <!-- голова -->
-    <div class="header side_margins container wrap jc-sb">
-        <div>
-            <img class="jc-fs" src="img/top_logo.svg" alt="GrowBe logo">
+<div class="header center flex wrap jc-sb">
+        <img src="img/top_logo.svg" alt="GrowBe logo">
+        <div class="flex row wrap item__c gap">
+            <a class=" orange" href="">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Features</a>
+            <a href="#">Team</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <input type="submit" value="Get Started" class="button txt__white b__orange">
         </div>
-        <div class="container ">
-            <div class="container row wrap">
-                <a class="marg orange" href="">Home</a>
-                <a class="marg" href="">About Us</a>
-                <a class="marg" href="">Services</a>
-                <a class="marg" href="">Features</a>
-                <a class="marg" href="">Team</a>
-                <a class="marg" href="">Blog</a>
-                <a class="marg" href="">Contact</a>
-            </div>
-            <input type="submit" value="Get Started" class="button txt_white b_orange">
-        </div>
-    </div>
+</div>
 
-<!-- домашняя страницы -->
-<div class="home side_margins container">
-    <div class="home_content container column">
-        <h1 class="heading_1">SEO & Digital <span class="span_mark">Marketing</span> For Your Website</h1>
-        <p class="p_home txt_1">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
-        <div class="buttons container">
-            <input type="button" value="Start Now" class="marg button txt_white b_orange">
-            <input type="image" src="img/icon_play.svg" width="40px" class="marg">
-            <p class="watch_video marg">Watch Video</p>
+<!-- домашняя страница -->
+<div class="home center flex wrap jc-sb">
+    <div class="home__content flex column">
+        <h1 class="heading__1">SEO & Digital <span class="span__mark">Marketing</span> For Your Website</h1>
+        <p class="txt__1">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+        <div class="buttons flex item__c buttons__gap">
+            <input class="button txt__white b__orange" type="button" value="Start Now">
+            <input type="image" src="img/icon_play.svg" width="40px">
+            <p>Watch Video</p>
         </div>
     </div>
-    <img class="" src="img/top_pic.svg" alt="Суета" width="">
+    <img class="home__img" src="img/top_pic.svg" alt="Суета" width="">
 </div>
 
 <!-- логотипы -->
-<div class="brend side_margins container wrap jc-sb">
+<div class="brend center flex wrap jc-sb">
     <img src="img/l1.svg" alt="logo1">
     <img src="img/l2.svg" alt="logo2">
     <img src="img/l3.svg" alt="logo3">
@@ -53,15 +49,14 @@
 </div>
 
 <!-- раздел 'о нас' -->
-<div class="b_FAFAFA">
-    <div class="about side_margins">
-        <!-- как отрезать бока векторов? -->
+<div class="b__light">
+    <div class="about center">
         <img src="img/vector.svg" class="vektor1">
         <img src="img/vector.svg" class="vektor2">
         <div class="about_content">
-            <h2 class="heading_2">Perfect Solution For Your Business</h2>
-            <p class="p_about txt_2">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts for chang the Seamlessly underwhelm optimal testing procedures.</p>
-            <input type="button" value="Learn More" onclick="yandex.ru" class="marg button txt_white b_orange">
+            <h2>Perfect Solution For Your Business</h2>
+            <p class="txt__2">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts for chang the Seamlessly underwhelm optimal testing procedures.</p>
+            <input type="button" value="Learn More" onclick="" class="button txt__white b__orange">
         </div>
         <div class="about_img">
             <img src="img/img_about.svg" alt="">
@@ -70,59 +65,73 @@
 </div>
 
 <!-- особенности -->
-<div class="feature side_margins container">
-    <div class="features_block_1">
-        <img class="features_img fi_1" src="img/features_1.svg" alt="пиктограмма 1">
-        <h3 class="heading_3">Grow Your Business</h3>
-        <p class="p_features">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
-        <a href="#" class="feature_ancors">Read More</a>
+<div class="feature center flex wrap">
+    <div class="features__block__1">
+        <img class="features__img col__1" src="img/features_1.svg" alt="пиктограмма 1">
+        <h3>Grow Your Business</h3>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+        <a href="#">Read More</a>
     </div>
-    <div class="features_block_2">
-        <img class="features_img fi_2" src="img/features_2.svg" alt="пиктограмма 2">
-        <h3 class="heading_3">Get Quality Ieads</h3>
-        <p class="p_features">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
-        <a href="#" class="feature_ancors">Read More</a>
+    <div class="features__block__2">
+        <img class="features__img col__2" src="img/features_2.svg" alt="пиктограмма 2">
+        <h3>Get Quality Ieads</h3>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+        <a href="#">Read More</a>
     </div>
-    <div class="features_block_3">
-        <img class="features_img fi_3" src="img/features_3.svg" alt="пиктограмма 3">
-        <h3 class="heading_3">Drive More Sales</h3>
-        <p class="p_features">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
-        <a href="#" class="feature_ancors">Read More</a>
+    <div class="features__block__1">
+        <img class="features__img col__3" src="img/features_3.svg" alt="пиктограмма 3">
+        <h3>Drive More Sales</h3>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+        <a href="#">Read More</a>
     </div>
 </div>
 
 <!-- услуги -->
-<div class="services b_FAFAFA">
-    <div class="side_margins container column">
-        <div class="container column">
-            <h2 class="heading_2">Why You Should Choose Us.</h2>
-            <p class="p_services">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts.</p>
-        </div>
-        <div class="services container">
-            <div>
-                <img class="services_img" src="img/serv_1.svg" alt="service_1">
-                <h3 class="heading_3">Keyword Research</h3>
-                <p class="p_features">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <input type="button" value="Learn More >" class="marg button txt_white b_orange">
+<div class="b__light">
+    <div class="services center flex column item__c">
+        <h2>Why You Should Choose Us.</h2>
+        <p class="services__p txt__2">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts.</p>
+        <div class="services_blocks flex wrap">
+            <div class="services_block__1">
+                <img class="services__img" src="img/serv_1.svg" alt="service 1">
+                <h3>Keyword Research</h3>
+                <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+                <input type="button" value="Learn More >" class="button txt__white b__orange">
             </div>
-            <div>
-                <img class="services_img" src="img/serv_2.svg" alt="service_2">
-                <h3 class="heading_3">Seo Optimazadion</h3>
-                <p class="p_features">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <input type="button" value="Learn More >" class="marg button txt_white b_orange">
+            <div class="services_block__2">
+                <img class="services__img" src="img/serv_2.svg" alt="service_2">
+                <h3>Seo Optimazadion</h3>
+                <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+                <input type="button" value="Learn More >" class="button txt__white b__orange">
             </div>
-            <div>
-                <img class="services_img" src="img/serv_3.svg" alt="service_3">
-                <h3 class="heading_3">Social Marketing</h3>
-                <p class="p_features">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <input type="button" value="Learn More >" class="button txt_white b_orange">
+            <div class="services_block__1">
+                <img class="services__img" src="img/serv_3.svg" alt="service_3">
+                <h3>Social Marketing</h3>
+                <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+                <input type="button" value="Learn More >" class="button txt__white b__orange">
             </div>
         </div>
     </div>
 </div>
 
+<!-- блок "что мы делаем" -->
+<div class="do flex ">
+    <img src="img/do.svg" alt="">
+    <div class="do__column flex column">
+        <h2>You may ask what SEO & why do you need it?</h2>
+        <p>Distinctively exploit optimal alignments for intuitive bandwidth. Quicklyhfghxfghxfgh coordinate e-business applications through revolutionary.</p>
+        <div class="do__block__1">
+            <img src="" alt="">
+            <h3></h3>
+            <p></p>
+        </div>
+        <div class="do__block__1"></div>
+        <div class="do__block__1"></div>
+    </div>
+</div>
+
 <!-- дно -->
-<div class="footer">
+<div class="footer grid">
     <div>
         <div></div>
         <ul></ul>
