@@ -1,0 +1,52 @@
+
+.shadow{/*тень*/
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06); 
+}
+
+.button {/*кнопка*/ 
+    font-family: 'Gilroy-Bold';
+    padding: 12px 27px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.center{/*центровка*/
+    padding-left: calc(50% - 660px);
+    padding-right: calc(50% - 660px);
+}
+
+
+/*цвета*/
+.orange{color: #F25822;}
+.b__orange{background-color: #F25822;}
+.b__light{background-color: #FAFAFA;}
+.txt__white{color: #FFFFFF;}
+.txt__1{color: #888888;}
+.txt__2{color: #666666;}
+
+/*светофор*/
+.col__1{background: rgba(242, 88, 34, 0.25);}
+.col__2{background: rgba(20, 146, 17, 0.28);}
+.col__3{background: rgba(255, 205, 29, 0.24);}
+
+
+/*позиционирование*/
+.flex{display: flex;}
+
+.column{flex-direction: column;}
+
+.wrap{flex-wrap: wrap;}
+
+.jc-c{justify-content: center;}
+.jc-fe{justify-content: flex-end;}
+.jc-sb{justify-content: space-between;}
+.jc-sa{justify-content: space-around;}
+
+.item__c{align-items: center;}
+.item__s{align-items: flex-start;}
+
+
+.grid{display: grid;}
+
+.ji-c{justify-items: center;}

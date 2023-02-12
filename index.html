@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/short.css">
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
     <title>ДЗ</title>
 </head>
@@ -13,14 +14,14 @@
     <!-- голова -->
 <div class="header center flex wrap jc-sb">
         <img src="img/top_logo.svg" alt="GrowBe logo">
-        <div class="flex row wrap item__c gap">
+        <div class="flex row wrap item__c">
             <a class=" orange" href="">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Features</a>
-            <a href="#">Team</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="#id__about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#id__features">Features</a>
+            <a href="#team">Team</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
             <input type="submit" value="Get Started" class="button txt__white b__orange">
         </div>
 </div>
@@ -28,12 +29,12 @@
 <!-- домашняя страница -->
 <div class="home center flex wrap jc-sb">
     <div class="home__content flex column">
-        <h1 class="heading__1">SEO & Digital <span class="span__mark">Marketing</span> For Your Website</h1>
+        <h1 class="heading__1">SEO & Digital <span>Marketing</span> For Your Website</h1>
         <p class="txt__1">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
         <div class="buttons flex item__c buttons__gap">
             <input class="button txt__white b__orange" type="button" value="Start Now">
             <input type="image" src="img/icon_play.svg" width="40px">
-            <p>Watch Video</p>
+            <span>Watch Video</span>
         </div>
     </div>
     <img class="home__img" src="img/top_pic.svg" alt="Суета" width="">
@@ -49,36 +50,34 @@
 </div>
 
 <!-- раздел 'о нас' -->
-<div class="b__light">
+<div class="about__box b__light ji-c" id="id__about">
+    <img src="img/vector.svg" class="vektor1">
+    <img src="img/vector.svg" class="vektor2">
     <div class="about center">
-        <img src="img/vector.svg" class="vektor1">
-        <img src="img/vector.svg" class="vektor2">
-        <div class="about_content">
+        <div class="about_content flex column jc-c item__s">
             <h2>Perfect Solution For Your Business</h2>
             <p class="txt__2">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts for chang the Seamlessly underwhelm optimal testing procedures.</p>
             <input type="button" value="Learn More" onclick="" class="button txt__white b__orange">
         </div>
-        <div class="about_img">
-            <img src="img/img_about.svg" alt="">
-        </div>
+        <img src="img/img_about.svg" alt="">
     </div>
 </div>
 
 <!-- особенности -->
-<div class="feature center flex wrap">
-    <div class="features__block__1">
+<div class="feature center" id="id__features">
+    <div class="features__block">
         <img class="features__img col__1" src="img/features_1.svg" alt="пиктограмма 1">
         <h3>Grow Your Business</h3>
         <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
         <a href="#">Read More</a>
     </div>
-    <div class="features__block__2">
+    <div class="features__block shadow">
         <img class="features__img col__2" src="img/features_2.svg" alt="пиктограмма 2">
         <h3>Get Quality Ieads</h3>
         <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
         <a href="#">Read More</a>
     </div>
-    <div class="features__block__1">
+    <div class="features__block">
         <img class="features__img col__3" src="img/features_3.svg" alt="пиктограмма 3">
         <h3>Drive More Sales</h3>
         <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
@@ -87,55 +86,83 @@
 </div>
 
 <!-- услуги -->
-<div class="b__light">
-    <div class="services center flex column item__c">
-        <h2>Why You Should Choose Us.</h2>
-        <p class="services__p txt__2">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts.</p>
-        <div class="services_blocks flex wrap">
-            <div class="services_block__1">
-                <img class="services__img" src="img/serv_1.svg" alt="service 1">
-                <h3>Keyword Research</h3>
+<div class="serv__block__top b__light grid ji-c">
+    <h2>Why You Should Choose Us.</h2>
+    <p class="txt__2">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts.</p>
+</div>
+<div class="services center grid ji-c b__light">
+    <div class="serv__block block__1">
+        <img class="services__img" src="img/serv_1.svg" alt="service 1">
+        <h3>Keyword Research</h3>
+        <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+        <input type="button" value="Learn More >" class="button txt__white b__orange">
+    </div>
+    <div class="serv__block block__2 shadow">
+        <img class="services__img" src="img/serv_2.svg" alt="service_2">
+        <h3>Seo Optimazadion</h3>
+        <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+        <input type="button" value="Learn More >" class="button txt__white b__orange">
+    </div>
+    <div class="serv__block">
+        <img class="services__img" src="img/serv_3.svg" alt="service_3">
+        <h3>Social Marketing</h3>
+        <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+        <input type="button" value="Learn More >" class="button txt__white b__orange">
+    </div>
+</div>
+
+
+<!-- блок "что мы делаем" -->
+<div class="do flex">
+    <img src="img/do.svg" alt="компас">
+    <div class="do__content">
+        <div class="do__block__1 flex column jc-c">
+            <h2>You may ask what</h2> <h2>SEO & why do you need it?</h2>
+            <p>Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary.</p>
+        </div>
+        <div class="do__block">
+            <img class="do__img col__1" src="img/do__3.svg">
+                <h3>Social Media Marketing</h3>
                 <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <input type="button" value="Learn More >" class="button txt__white b__orange">
-            </div>
-            <div class="services_block__2">
-                <img class="services__img" src="img/serv_2.svg" alt="service_2">
-                <h3>Seo Optimazadion</h3>
-                <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <input type="button" value="Learn More >" class="button txt__white b__orange">
-            </div>
-            <div class="services_block__1">
-                <img class="services__img" src="img/serv_3.svg" alt="service_3">
-                <h3>Social Marketing</h3>
-                <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
-                <input type="button" value="Learn More >" class="button txt__white b__orange">
-            </div>
+        </div>
+        <div class="do__block shadow">
+            <img class="do__img col__2" src="img/do__2.svg">
+            <h3>Email Marketing</h3>
+            <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+        </div>
+        <div class="do__block">
+            <img class="do__img col__3" src="img/do__1.svg">
+            <h3>SEO Optimization</h3>
+            <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
         </div>
     </div>
 </div>
 
-<!-- блок "что мы делаем" -->
-<div class="do flex ">
-    <img src="img/do.svg" alt="">
-    <div class="do__column flex column">
-        <h2>You may ask what SEO & why do you need it?</h2>
-        <p>Distinctively exploit optimal alignments for intuitive bandwidth. Quicklyhfghxfghxfgh coordinate e-business applications through revolutionary.</p>
-        <div class="do__block__1">
-            <img class="do__img col__1" src="img/do__3.svg">
-            <h3></h3>
-            <p></p>
-        </div>
-        <div class="do__block__1">
-            <img class="do__img col__2" src="img/do__2.svg">
-            <h3></h3>
-            <p></p>
-        </div>
-        <div class="do__block__1">
-            <img class="do__img col__3" src="img/do__1.svg">
-            <h3></h3>
-            <p></p>
-        </div>
+
+
+<!-- понты -->
+<div class="funfact grid">
+    <img src="img/01.svg" alt="">
+    <img src="img/dot1.svg" alt="">
+    <img src="img/02.svg" alt="">
+    <img src="img/dot2.svg" alt="">
+    <img src="img/03.svg" alt="">
+    <img src="img/dot3.svg" alt="">
+    <img src="img/04.svg" alt="">
+</div>
+
+<!-- почта -->
+<div class="mailbox">
+    <div class="mailbox__content">
+        <h3>Check Your Website Speed </h3>
+        <p>Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business through revolutionary.</p>
+        <form action="">
+            <input class="" type="url">
+            <input class="" type="email">
+            <input class="button txt__white b__orange" type="submit">
+        </form>
     </div>
+    <img src="img/mailbox.svg" alt="">
 </div>
 
 <!-- дно -->
